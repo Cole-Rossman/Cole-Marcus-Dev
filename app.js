@@ -2,7 +2,7 @@
 
 import { people } from './data.js';
 
-console.log(people, 'people');
+//console.log(people, 'people');  testing whether data imports correctly
 
 // grab DOM elements
 const selectEl = document.querySelector('select');
