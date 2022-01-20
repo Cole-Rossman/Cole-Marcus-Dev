@@ -1,6 +1,16 @@
-## The Golden Rule:
+First, create export const people containing all information
+Add select tag with options. Class, name, id then option elements with values.
+Create div container. Add classes to grab within the js file. 
+Import data inside js file. console.log validate
+Grab elements inside html. Option 1 is to call on documents and dot notate to grab the elements. 
+Grab DOM by class/id that is inside html file - use querySelector
+This will grab and select by id using getElementById
+addEventListener - render the user with a function
+Add a class of the users name by grabbing the user by index
+grab variables and set the textContent to that user
+Write loop and verify function works
+call function.
 
-🦸 🦸‍♂️ `Stop starting and start finishing.` 🏁
 
 If you work on more than one feature at a time, you are guaranteed to multiply your bugs and your anxiety.
 
