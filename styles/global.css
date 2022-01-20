@@ -1,8 +1,8 @@
 
 :root {
     --primary-background: #FFFFF4;
-    --chrome-background: #e3b574;
-    --chrome-background-opaque: #e3b574d1;
+    --chrome-background: #6fa823;
+    --chrome-background-opaque: #4fa02fd1;
     --secondary-background: #C9B39B;
     --text-color: #32363F;
     --accent-light: #ED8F11;
@@ -42,4 +42,20 @@ footer {
     background-color: var(--chrome-background-opaque);
     padding: 10px var(--gutter);
     align-self: stretch;
+}
+
+.Shrek {
+    background-color: antiquewhite;
+}
+
+.Fiona {
+    background-color: rgba(235, 208, 227, 0.45)
+}
+
+.Donkey {
+    background-color: rosybrown;
+}
+
+.Dragon {
+    background-color: rgb(204, 97, 97);
 }
