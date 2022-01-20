@@ -15,7 +15,18 @@ const container = document.querySelector('.contain');
 console.log('Elements', selectEl, nameEl, ageEl, bioEl, hobbiesEl, container);
 
 selectEl.addEventListener('change', (e) => {
-    console.log('user click');
+    const selected = e.target.value;
+    hobbiesEl.innerHTML = ' ';
+    
+    if (selected === '1') {
+        renderPerson(0);
+    } else if (selected === '2') {
+        renderPerson(1);
+    } else if (selected === '3') {
+        renderPerson(2);
+    } else {
+        renderPerson(3);
+    }
 });
 
 function renderPerson(index) {
@@ -30,6 +41,7 @@ function renderPerson(index) {
         hobbiesEl.appendChild(li);
     }
 }
+
 
 // set event listeners 
     // get user input
