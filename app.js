@@ -16,6 +16,7 @@ console.log('Elements', selectEl, nameEl, ageEl, bioEl, hobbiesEl, container);
 
 selectEl.addEventListener('change', (e) => {
     const selected = e.target.value;
+    container.classList.remove('Shrek', 'Fiona', 'Donkey', 'Dragon');
     hobbiesEl.innerHTML = ' ';
     
     if (selected === '1') {
@@ -34,7 +35,7 @@ function renderPerson(index) {
     nameEl.textContent = 'Name: ' + people[index].name;
     ageEl.textContent = 'Age: ' + people[index].age;
     bioEl.textContent = 'Bio: ' + people[index].bio;
-
+    hobbiesEl.textContent = 'Hobbies: ';
     for (let hobby of people[index].hobbies) {
         const li = document.createElement('li');
         li.textContent = hobby;
